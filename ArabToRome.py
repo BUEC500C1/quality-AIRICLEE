@@ -27,4 +27,4 @@ if __name__ == '__main__':
 
   one_num_list=[77,66,55,8,1200,34,65,3,21,99,40,3999,4000, 0, -1, 3.5, "asd"]
   for one_num in one_num_list:
-    print (one_num,'----->',transform_alabo2_roman_num(one_num))
+    print (one_num,'----->',transform_AtoR(one_num))
