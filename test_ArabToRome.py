@@ -20,8 +20,8 @@ def test_transform_AtoR_pass():
 	assert transform_AtoR("asd") == "Invalid value, Please input int type"
 
 def test_transform_AtoR_failed():
-	assert transform_AtoR(999) = "XA"
-	assert transform_AtoR("ASD") = "MML"
-	assert transform_AtoR(3.5) = "III"
-	assert transform_AtoR(-2) = "VIII"
-	assert transform_AtoR(0) = "0"
+	assert transform_AtoR(999) == "XA"
+	assert transform_AtoR("ASD") == "MML"
+	assert transform_AtoR(3.5) == "III"
+	assert transform_AtoR(-2) == "VIII"
+	assert transform_AtoR(0) == "0"
